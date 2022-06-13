@@ -1,0 +1,12 @@
+number = int(input("Enter a number "))
+x = int(number)%2
+if x == 0:
+    print(" The number is Even ")
+else:
+    print(" The number is odd ")
+
+
+
+c = input(" Enter temperature in Centigrade: ")
+f = (9*(int(c))/5)+32
+print(" Temperature in Fahrenheit is: ", f)
